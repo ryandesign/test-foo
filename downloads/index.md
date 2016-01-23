@@ -1,3 +1,3 @@
 ---
-redirect_to: /ryandesign/test-foo/releases
+redirect_to: https://github.com/ryandesign/test-foo/releases
 ---
