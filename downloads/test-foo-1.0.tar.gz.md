@@ -1,0 +1,3 @@
+---
+https://github.com/ryandesign/test-foo/releases/download/1.0/test-foo-1.0.tar.gz
+---
