@@ -34,7 +34,7 @@
 	switch(location.pathname){
 		case '/blog.php':
 			if(L){
-				loadJson('/blog.json',function(err,data){
+				loadJson('/test-foo/404/blog.json',function(err,data){
 					if(!err&&data[L[1]]){
 						return r('https://michaelrsweet.github.io/cups/'+data[L[1]]+'.html');
 					}
@@ -43,7 +43,7 @@
 			break;
 		case '/str.php':
 			if(L){
-				loadJson('/str.json',function(err,data){
+				loadJson('/test-foo/404/str.json',function(err,data){
 					if(!err&&data[L[1]]){
 						return r('https://github.com/michaelrsweet/testcups/issues/'+data[L[1]]);
 					}
